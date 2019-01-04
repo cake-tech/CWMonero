@@ -12,12 +12,13 @@ MONERO_CORE_DIR_PATH="$EXTERNAL_DIR_PATH/monero-gui"
 MONERO_URL="https://github.com/fotolockr/monero.git"
 MONERO_DIR_PATH="$MONERO_CORE_DIR_PATH/monero"
 SODIUM_PATH="$EXTERNAL_DIR_PATH/libsodium"
+SODIUM_URL="https://github.com/jedisct1/libsodium.git"
 SODIUM_LIBRARY_PATH="$SODIUM_PATH/libsodium-ios/lib/libsodium.a"
 SODIUM_INCLUDE_PATH="$SODIUM_PATH/libsodium-ios/include"
 
 echo "============================ SODIUM ============================"
 echo "Cloning SODIUM from - $SODIUM_URL"
-git clone -b build $SODIUM_URL $SODIUM_PATH
+git clone $SODIUM_URL $SODIUM_PATH --branch stable
 cd $SODIUM_PATH
 ./dist-build/ios.sh
 cd ../..
