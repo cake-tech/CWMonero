@@ -27,9 +27,11 @@ echo "============================ Monero-gui ============================"
 
 echo "Cloning monero-gui from - $MONERO_CORE_URL"
 git clone -b build $MONERO_CORE_URL $MONERO_CORE_DIR_PATH
-cd $MONERO_CORE_DIR_PATH
 echo "Cloning monero from - $MONERO_URL to - $MONERO_DIR_PATH"
 git clone -b build $MONERO_URL $MONERO_DIR_PATH
+cd $MONERO_DIR_PATH
+git submodule init && git submodule update
+cd ..
 echo "Export Boost vars"
 export BOOST_LIBRARYDIR="${EXTERNAL_UTILS_DIR_PATH}/ofxiOSBoost/build/ios/prefix/lib"
 export BOOST_LIBRARYDIR_x86_64="${EXTERNAL_UTILS_DIR_PATH}/ofxiOSBoost/build/libs/boost/lib/x86_64"
