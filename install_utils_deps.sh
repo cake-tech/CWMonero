@@ -9,7 +9,7 @@ OPEN_SSL_DIR_PATH="$EXTERNAL_DIR_PATH/OpenSSL"
 LMDB_DIR_URL="https://github.com/LMDB/lmdb.git"
 LMDB_DIR_PATH="$EXTERNAL_DIR_PATH/lmdb/Sources"
 
-echo "Init external libs."
+echo "============================ Init external libs ============================"
 mkdir -p $EXTERNAL_DIR_PATH
 
 echo "============================ Boost ============================"
@@ -29,7 +29,7 @@ cd $OPEN_SSL_DIR_PATH
 ./build-libssl.sh --version=1.0.2j
 cd $SOURCE_DIR
 
-echo "============================ OpenSSL ============================"
+echo "============================ LMDB ============================"
 echo "Cloning lmdb from - $LMDB_DIR_URL"
 git clone $LMDB_DIR_URL $LMDB_DIR_PATH
 cd $LMDB_DIR_PATH
