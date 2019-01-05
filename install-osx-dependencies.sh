@@ -26,7 +26,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   
     if [ ! -d $CPPZMQ_SOURCES_PATH ]; then
       echo "Installing zeromq"
-      git clone https://github.com/zeromq/cppzmq
+      git clone https://github.com/zeromq/cppzmq $CPPZMQ_SOURCES_PATH
     fi
 
     cp cppzmq/$CPPZMQ_HEADER_FILE $CPPZMQ_HEADER_PATH
