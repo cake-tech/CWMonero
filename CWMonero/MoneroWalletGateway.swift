@@ -86,4 +86,8 @@ public final class MoneroWalletGateway: WalletGateway {
 
         return true
     }
+    
+    public func generatePaymentId() -> String {
+        return MoneroWalletAdapter.generatePaymentId()
+    }
 }

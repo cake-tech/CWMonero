@@ -1,5 +1,5 @@
 import Foundation
 
-public enum TransactionDirection {
+public enum TransactionDirection: Int {
     case incoming, outcoming
 }

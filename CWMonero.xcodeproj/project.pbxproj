@@ -21,6 +21,7 @@
 		0C347BEB2199AABD00356DD7 /* MoneroAmountParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C347BD92199AABD00356DD7 /* MoneroAmountParser.mm */; };
 		0C347BEC2199AABD00356DD7 /* MoneroWalleteError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C347BDA2199AABD00356DD7 /* MoneroWalleteError.m */; };
 		0C347BEE2199ABDD00356DD7 /* CWMonero-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C347BED2199ABDA00356DD7 /* CWMonero-Bridging-Header.h */; };
+		0C49A42B21E101680099E8ED /* libsodium.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C49A42A21E101680099E8ED /* libsodium.a */; };
 		0C7A8334219706CD00A5BA2A /* CWMonero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7A832A219706CD00A5BA2A /* CWMonero.framework */; };
 		0C7A8339219706CD00A5BA2A /* CWMoneroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A8338219706CD00A5BA2A /* CWMoneroTests.swift */; };
 		0C7A834F2197073500A5BA2A /* MoneroWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A83442197073400A5BA2A /* MoneroWallet.swift */; };
@@ -35,7 +36,6 @@
 		0C7A83762197093000A5BA2A /* lmdb.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A83752197093000A5BA2A /* lmdb.m */; };
 		0C7A83772197093000A5BA2A /* lmdb.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C7A83742197093000A5BA2A /* lmdb.h */; };
 		0C7A83A4219709C700A5BA2A /* liblmdb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7A83722197093000A5BA2A /* liblmdb.a */; };
-		0C8882B32199D2B7003C6AEB /* libsodium.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8882B22199D2B7003C6AEB /* libsodium.a */; };
 		0C8882B62199D2E5003C6AEB /* libwallet_merged.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8882B42199D2CC003C6AEB /* libwallet_merged.a */; };
 		0C8882BB2199D2E6003C6AEB /* libeasylogging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8882B72199D2E6003C6AEB /* libeasylogging.a */; };
 		0C8882BC2199D2E6003C6AEB /* liblmdb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8882B82199D2E6003C6AEB /* liblmdb.a */; };
@@ -120,6 +120,7 @@
 		0C347BD92199AABD00356DD7 /* MoneroAmountParser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MoneroAmountParser.mm; sourceTree = "<group>"; };
 		0C347BDA2199AABD00356DD7 /* MoneroWalleteError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneroWalleteError.m; sourceTree = "<group>"; };
 		0C347BED2199ABDA00356DD7 /* CWMonero-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CWMonero-Bridging-Header.h"; sourceTree = "<group>"; };
+		0C49A42A21E101680099E8ED /* libsodium.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsodium.a; path = "../SharedExternal/libsodium/libsodium-ios/lib/libsodium.a"; sourceTree = "<group>"; };
 		0C7A832A219706CD00A5BA2A /* CWMonero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CWMonero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7A832E219706CD00A5BA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C7A8333219706CD00A5BA2A /* CWMoneroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWMoneroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -198,6 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C49A42B21E101680099E8ED /* libsodium.a in Frameworks */,
 				0C9AF8D821BE862700980D89 /* libcrypto.a in Frameworks */,
 				0C9AF8D921BE862700980D89 /* libssl.a in Frameworks */,
 				0C9AF8D521BE861900980D89 /* libboost.a in Frameworks */,
@@ -208,7 +210,6 @@
 				0C8882BD2199D2E6003C6AEB /* libunbound.a in Frameworks */,
 				0C8882BE2199D2E6003C6AEB /* libepee.a in Frameworks */,
 				0C8882B62199D2E5003C6AEB /* libwallet_merged.a in Frameworks */,
-				0C8882B32199D2B7003C6AEB /* libsodium.a in Frameworks */,
 				0C7A83A4219709C700A5BA2A /* liblmdb.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +318,7 @@
 		0C7A835A219707A300A5BA2A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0C49A42A21E101680099E8ED /* libsodium.a */,
 				0C9AF8D621BE862600980D89 /* libcrypto.a */,
 				0C9AF8D721BE862700980D89 /* libssl.a */,
 				0C9AF8D421BE861900980D89 /* libboost.a */,
@@ -751,7 +753,7 @@
 					"$(PROJECT_DIR)/External/monero-gui/monero/src",
 					"$(PROJECT_DIR)/External/monero-gui/monero/contrib/epee/include",
 					"$(PROJECT_DIR)/External/monero-gui/monero/external",
-					"$(PROJECT_DIR)/External/libsodium/libsodium-ios/include",
+					"$(PROJECT_DIR)/../SharedExternal/libsodium/libsodium-ios/include",
 					"$(PROJECT_DIR)/External/monero-gui/monero/external/unbound",
 					"$(PROJECT_DIR)/External/monero-gui/monero/external/easylogging++",
 				);
@@ -769,7 +771,7 @@
 					"$(PROJECT_DIR)/External/monero-gui/monero/lib",
 					"$(PROJECT_DIR)/../SharedExternal/OpenSSL/lib",
 					"$(PROJECT_DIR)/../SharedExternal/ofxiOSBoost/libs/boost/ios",
-					"$(PROJECT_DIR)/External/libsodium/libsodium-ios/lib",
+					"$(PROJECT_DIR)/../SharedExternal/libsodium/libsodium-ios/lib",
 					"$(PROJECT_DIR)/External/monero-gui/monero/lib-x86_64",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.CWMonero;
@@ -800,7 +802,7 @@
 					"$(PROJECT_DIR)/External/monero-gui/monero/src",
 					"$(PROJECT_DIR)/External/monero-gui/monero/contrib/epee/include",
 					"$(PROJECT_DIR)/External/monero-gui/monero/external",
-					"$(PROJECT_DIR)/External/libsodium/libsodium-ios/include",
+					"$(PROJECT_DIR)/../SharedExternal/libsodium/libsodium-ios/include",
 					"$(PROJECT_DIR)/External/monero-gui/monero/external/unbound",
 					"$(PROJECT_DIR)/External/monero-gui/monero/external/easylogging++",
 				);
@@ -818,7 +820,7 @@
 					"$(PROJECT_DIR)/External/monero-gui/monero/lib",
 					"$(PROJECT_DIR)/../SharedExternal/OpenSSL/lib",
 					"$(PROJECT_DIR)/../SharedExternal/ofxiOSBoost/libs/boost/ios",
-					"$(PROJECT_DIR)/External/libsodium/libsodium-ios/lib",
+					"$(PROJECT_DIR)/../SharedExternal/libsodium/libsodium-ios/lib",
 					"$(PROJECT_DIR)/External/monero-gui/monero/lib-x86_64",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.CWMonero;
