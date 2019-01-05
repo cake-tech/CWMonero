@@ -29,7 +29,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
       git clone https://github.com/zeromq/cppzmq $CPPZMQ_SOURCES_PATH
     fi
 
-    cp cppzmq/$CPPZMQ_HEADER_FILE $CPPZMQ_HEADER_PATH
+    cp $CPPZMQ_SOURCES_PATH/$CPPZMQ_HEADER_FILE $CPPZMQ_HEADER_PATH
   fi
  
   ./install-missing-headers.sh
