@@ -17,7 +17,7 @@ Pods/
 Carthage/
 
 # External
-External/
+# External/
 lmdb/Sources/
 
 # VS Code
