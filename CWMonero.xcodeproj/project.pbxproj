@@ -748,14 +748,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../SharedExternal/OpenSSL/include",
-					"$(PROJECT_DIR)/../SharedExternal/ofxiOSBoost/libs/boost/include",
-					"$(PROJECT_DIR)/External/monero-gui/monero/src",
-					"$(PROJECT_DIR)/External/monero-gui/monero/contrib/epee/include",
-					"$(PROJECT_DIR)/External/monero-gui/monero/external",
-					"$(PROJECT_DIR)/../SharedExternal/libsodium/libsodium-ios/include",
-					"$(PROJECT_DIR)/External/monero-gui/monero/external/unbound",
-					"$(PROJECT_DIR)/External/monero-gui/monero/external/easylogging++",
+					"$(PROJECT_DIR)/../SharedExternal/libs/OpenSSL/include",
+					"$(PROJECT_DIR)/../SharedExternal/libs/boost/include",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/include/src",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/include/contrib/epee/include",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/include/external",
+					"$(PROJECT_DIR)/../SharedExternal/libs/sodium/include",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/include/external/unbound",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/include/external/easylogging++",
 				);
 				INFOPLIST_FILE = CWMonero/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -767,12 +767,12 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/External/monero-gui/monero/lib-ios",
-					"$(PROJECT_DIR)/External/monero-gui/monero/lib",
-					"$(PROJECT_DIR)/../SharedExternal/OpenSSL/lib",
-					"$(PROJECT_DIR)/../SharedExternal/ofxiOSBoost/libs/boost/ios",
-					"$(PROJECT_DIR)/../SharedExternal/libsodium/libsodium-ios/lib",
-					"$(PROJECT_DIR)/External/monero-gui/monero/lib-x86_64",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/lib-ios",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/lib",
+					"$(PROJECT_DIR)/../SharedExternal/libs/OpenSSL/lib",
+					"$(PROJECT_DIR)/../SharedExternal/libs/boost/lib",
+					"$(PROJECT_DIR)/../SharedExternal/libs/sodium/lib",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/lib-x86_64",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.CWMonero;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -797,14 +797,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../SharedExternal/OpenSSL/include",
-					"$(PROJECT_DIR)/../SharedExternal/ofxiOSBoost/libs/boost/include",
-					"$(PROJECT_DIR)/External/monero-gui/monero/src",
-					"$(PROJECT_DIR)/External/monero-gui/monero/contrib/epee/include",
-					"$(PROJECT_DIR)/External/monero-gui/monero/external",
-					"$(PROJECT_DIR)/../SharedExternal/libsodium/libsodium-ios/include",
-					"$(PROJECT_DIR)/External/monero-gui/monero/external/unbound",
-					"$(PROJECT_DIR)/External/monero-gui/monero/external/easylogging++",
+					"$(PROJECT_DIR)/../SharedExternal/libs/OpenSSL/include",
+					"$(PROJECT_DIR)/../SharedExternal/libs/boost/include",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/include/src",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/include/contrib/epee/include",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/include/external",
+					"$(PROJECT_DIR)/../SharedExternal/libs/sodium/include",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/include/external/unbound",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/include/external/easylogging++",
 				);
 				INFOPLIST_FILE = CWMonero/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -816,12 +816,12 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/External/monero-gui/monero/lib-ios",
-					"$(PROJECT_DIR)/External/monero-gui/monero/lib",
-					"$(PROJECT_DIR)/../SharedExternal/OpenSSL/lib",
-					"$(PROJECT_DIR)/../SharedExternal/ofxiOSBoost/libs/boost/ios",
-					"$(PROJECT_DIR)/../SharedExternal/libsodium/libsodium-ios/lib",
-					"$(PROJECT_DIR)/External/monero-gui/monero/lib-x86_64",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/lib-ios",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/lib",
+					"$(PROJECT_DIR)/../SharedExternal/libs/OpenSSL/lib",
+					"$(PROJECT_DIR)/../SharedExternal/libs/boost/lib",
+					"$(PROJECT_DIR)/../SharedExternal/libs/sodium/lib",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/lib-x86_64",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.CWMonero;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
