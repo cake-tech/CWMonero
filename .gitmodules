@@ -1,3 +1,0 @@
-[submodule "External/monero-gui"]
-	path = External/monero-gui
-	url = https://github.com/fotolockr/monero-gui.git

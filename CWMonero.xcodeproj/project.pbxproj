@@ -55,19 +55,20 @@
 		0C9AF8E821BE885400980D89 /* PendingTransactionDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AF8E721BE885400980D89 /* PendingTransactionDescription.swift */; };
 		0C9AF8EA21BE887F00980D89 /* PendingTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AF8E921BE887F00980D89 /* PendingTransaction.swift */; };
 		0C9AF8EE21BE8F5500980D89 /* MoneroWalletKeysPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AF8ED21BE8F5500980D89 /* MoneroWalletKeysPair.swift */; };
-		0C9AF90921BE9A7300980D89 /* mtest6.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AF8F021BE9A7100980D89 /* mtest6.c */; };
-		0C9AF90A21BE9A7300980D89 /* midl.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AF8F121BE9A7100980D89 /* midl.c */; };
-		0C9AF90B21BE9A7300980D89 /* mdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AF8F221BE9A7100980D89 /* mdb.c */; };
-		0C9AF90C21BE9A7300980D89 /* mtest2.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AF8F321BE9A7200980D89 /* mtest2.c */; };
-		0C9AF90D21BE9A7300980D89 /* mdb_stat.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AF8F421BE9A7200980D89 /* mdb_stat.c */; };
-		0C9AF90E21BE9A7300980D89 /* mtest3.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AF8F521BE9A7200980D89 /* mtest3.c */; };
-		0C9AF90F21BE9A7300980D89 /* mdb_copy.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AF8F921BE9A7200980D89 /* mdb_copy.c */; };
-		0C9AF91021BE9A7300980D89 /* mtest.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AF8FA21BE9A7200980D89 /* mtest.c */; };
-		0C9AF91121BE9A7300980D89 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AF90221BE9A7200980D89 /* Makefile */; };
-		0C9AF91221BE9A7300980D89 /* mtest4.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AF90421BE9A7200980D89 /* mtest4.c */; };
-		0C9AF91321BE9A7300980D89 /* mdb_load.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AF90521BE9A7300980D89 /* mdb_load.c */; };
-		0C9AF91421BE9A7300980D89 /* mtest5.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AF90621BE9A7300980D89 /* mtest5.c */; };
-		0C9AF91521BE9A7300980D89 /* mdb_dump.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AF90721BE9A7300980D89 /* mdb_dump.c */; };
+		0CD3AE6421E4FF2D002A9571 /* mtest3.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3AE5621E4FF2C002A9571 /* mtest3.c */; };
+		0CD3AE6521E4FF2D002A9571 /* mdb_copy.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3AE5721E4FF2D002A9571 /* mdb_copy.c */; };
+		0CD3AE6621E4FF2D002A9571 /* mdb_load.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3AE5821E4FF2D002A9571 /* mdb_load.c */; };
+		0CD3AE6721E4FF2D002A9571 /* mtest4.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3AE5921E4FF2D002A9571 /* mtest4.c */; };
+		0CD3AE6821E4FF2D002A9571 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3AE5A21E4FF2D002A9571 /* Makefile */; };
+		0CD3AE6921E4FF2D002A9571 /* mdb_dump.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3AE5B21E4FF2D002A9571 /* mdb_dump.c */; };
+		0CD3AE6A21E4FF2D002A9571 /* midl.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3AE5C21E4FF2D002A9571 /* midl.c */; };
+		0CD3AE6B21E4FF2D002A9571 /* mdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3AE5D21E4FF2D002A9571 /* mdb.c */; };
+		0CD3AE6C21E4FF2D002A9571 /* mtest5.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3AE5E21E4FF2D002A9571 /* mtest5.c */; };
+		0CD3AE6D21E4FF2D002A9571 /* mtest6.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3AE5F21E4FF2D002A9571 /* mtest6.c */; };
+		0CD3AE6E21E4FF2D002A9571 /* mdb_stat.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3AE6021E4FF2D002A9571 /* mdb_stat.c */; };
+		0CD3AE6F21E4FF2D002A9571 /* midl.h in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3AE6121E4FF2D002A9571 /* midl.h */; };
+		0CD3AE7021E4FF2D002A9571 /* mtest.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3AE6221E4FF2D002A9571 /* mtest.c */; };
+		0CD3AE7121E4FF2D002A9571 /* mtest2.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3AE6321E4FF2D002A9571 /* mtest2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +193,20 @@
 		0C9AF90621BE9A7300980D89 /* mtest5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mtest5.c; path = ../../../SharedExternal/lmdb/Sources/libraries/liblmdb/mtest5.c; sourceTree = "<group>"; };
 		0C9AF90721BE9A7300980D89 /* mdb_dump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mdb_dump.c; path = ../../../SharedExternal/lmdb/Sources/libraries/liblmdb/mdb_dump.c; sourceTree = "<group>"; };
 		0C9AF90821BE9A7300980D89 /* COPYRIGHT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = COPYRIGHT; path = ../../../SharedExternal/lmdb/Sources/libraries/liblmdb/COPYRIGHT; sourceTree = "<group>"; };
+		0CD3AE5621E4FF2C002A9571 /* mtest3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mtest3.c; path = ../SharedExternal/sources/lmdb/Sources/libraries/liblmdb/mtest3.c; sourceTree = "<group>"; };
+		0CD3AE5721E4FF2D002A9571 /* mdb_copy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mdb_copy.c; path = ../SharedExternal/sources/lmdb/Sources/libraries/liblmdb/mdb_copy.c; sourceTree = "<group>"; };
+		0CD3AE5821E4FF2D002A9571 /* mdb_load.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mdb_load.c; path = ../SharedExternal/sources/lmdb/Sources/libraries/liblmdb/mdb_load.c; sourceTree = "<group>"; };
+		0CD3AE5921E4FF2D002A9571 /* mtest4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mtest4.c; path = ../SharedExternal/sources/lmdb/Sources/libraries/liblmdb/mtest4.c; sourceTree = "<group>"; };
+		0CD3AE5A21E4FF2D002A9571 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../SharedExternal/sources/lmdb/Sources/libraries/liblmdb/Makefile; sourceTree = "<group>"; };
+		0CD3AE5B21E4FF2D002A9571 /* mdb_dump.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mdb_dump.c; path = ../SharedExternal/sources/lmdb/Sources/libraries/liblmdb/mdb_dump.c; sourceTree = "<group>"; };
+		0CD3AE5C21E4FF2D002A9571 /* midl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = midl.c; path = ../SharedExternal/sources/lmdb/Sources/libraries/liblmdb/midl.c; sourceTree = "<group>"; };
+		0CD3AE5D21E4FF2D002A9571 /* mdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mdb.c; path = ../SharedExternal/sources/lmdb/Sources/libraries/liblmdb/mdb.c; sourceTree = "<group>"; };
+		0CD3AE5E21E4FF2D002A9571 /* mtest5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mtest5.c; path = ../SharedExternal/sources/lmdb/Sources/libraries/liblmdb/mtest5.c; sourceTree = "<group>"; };
+		0CD3AE5F21E4FF2D002A9571 /* mtest6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mtest6.c; path = ../SharedExternal/sources/lmdb/Sources/libraries/liblmdb/mtest6.c; sourceTree = "<group>"; };
+		0CD3AE6021E4FF2D002A9571 /* mdb_stat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mdb_stat.c; path = ../SharedExternal/sources/lmdb/Sources/libraries/liblmdb/mdb_stat.c; sourceTree = "<group>"; };
+		0CD3AE6121E4FF2D002A9571 /* midl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = midl.h; path = ../SharedExternal/sources/lmdb/Sources/libraries/liblmdb/midl.h; sourceTree = "<group>"; };
+		0CD3AE6221E4FF2D002A9571 /* mtest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mtest.c; path = ../SharedExternal/sources/lmdb/Sources/libraries/liblmdb/mtest.c; sourceTree = "<group>"; };
+		0CD3AE6321E4FF2D002A9571 /* mtest2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mtest2.c; path = ../SharedExternal/sources/lmdb/Sources/libraries/liblmdb/mtest2.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +275,20 @@
 		0C7A8320219706CD00A5BA2A = {
 			isa = PBXGroup;
 			children = (
+				0CD3AE5A21E4FF2D002A9571 /* Makefile */,
+				0CD3AE5721E4FF2D002A9571 /* mdb_copy.c */,
+				0CD3AE5B21E4FF2D002A9571 /* mdb_dump.c */,
+				0CD3AE5821E4FF2D002A9571 /* mdb_load.c */,
+				0CD3AE6021E4FF2D002A9571 /* mdb_stat.c */,
+				0CD3AE5D21E4FF2D002A9571 /* mdb.c */,
+				0CD3AE5C21E4FF2D002A9571 /* midl.c */,
+				0CD3AE6121E4FF2D002A9571 /* midl.h */,
+				0CD3AE6221E4FF2D002A9571 /* mtest.c */,
+				0CD3AE6321E4FF2D002A9571 /* mtest2.c */,
+				0CD3AE5621E4FF2C002A9571 /* mtest3.c */,
+				0CD3AE5921E4FF2D002A9571 /* mtest4.c */,
+				0CD3AE5E21E4FF2D002A9571 /* mtest5.c */,
+				0CD3AE5F21E4FF2D002A9571 /* mtest6.c */,
 				0C7A832C219706CD00A5BA2A /* CWMonero */,
 				0C7A8337219706CD00A5BA2A /* CWMoneroTests */,
 				0C7A83732197093000A5BA2A /* lmdb */,
@@ -585,19 +614,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C9AF91121BE9A7300980D89 /* Makefile in Sources */,
-				0C9AF91421BE9A7300980D89 /* mtest5.c in Sources */,
-				0C9AF90F21BE9A7300980D89 /* mdb_copy.c in Sources */,
-				0C9AF90A21BE9A7300980D89 /* midl.c in Sources */,
-				0C9AF90C21BE9A7300980D89 /* mtest2.c in Sources */,
-				0C9AF91021BE9A7300980D89 /* mtest.c in Sources */,
-				0C9AF91321BE9A7300980D89 /* mdb_load.c in Sources */,
-				0C9AF90E21BE9A7300980D89 /* mtest3.c in Sources */,
-				0C9AF90B21BE9A7300980D89 /* mdb.c in Sources */,
-				0C9AF90D21BE9A7300980D89 /* mdb_stat.c in Sources */,
-				0C9AF91221BE9A7300980D89 /* mtest4.c in Sources */,
-				0C9AF91521BE9A7300980D89 /* mdb_dump.c in Sources */,
-				0C9AF90921BE9A7300980D89 /* mtest6.c in Sources */,
+				0CD3AE6421E4FF2D002A9571 /* mtest3.c in Sources */,
+				0CD3AE6521E4FF2D002A9571 /* mdb_copy.c in Sources */,
+				0CD3AE6621E4FF2D002A9571 /* mdb_load.c in Sources */,
+				0CD3AE6721E4FF2D002A9571 /* mtest4.c in Sources */,
+				0CD3AE6821E4FF2D002A9571 /* Makefile in Sources */,
+				0CD3AE6921E4FF2D002A9571 /* mdb_dump.c in Sources */,
+				0CD3AE6A21E4FF2D002A9571 /* midl.c in Sources */,
+				0CD3AE6B21E4FF2D002A9571 /* mdb.c in Sources */,
+				0CD3AE6C21E4FF2D002A9571 /* mtest5.c in Sources */,
+				0CD3AE6D21E4FF2D002A9571 /* mtest6.c in Sources */,
+				0CD3AE6E21E4FF2D002A9571 /* mdb_stat.c in Sources */,
+				0CD3AE6F21E4FF2D002A9571 /* midl.h in Sources */,
+				0CD3AE7021E4FF2D002A9571 /* mtest.c in Sources */,
+				0CD3AE7121E4FF2D002A9571 /* mtest2.c in Sources */,
 				0C7A83762197093000A5BA2A /* lmdb.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -767,12 +797,12 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../SharedExternal/libs/monero/lib-ios",
-					"$(PROJECT_DIR)/../SharedExternal/libs/monero/lib",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/libs/lib-ios",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/libs/lib",
 					"$(PROJECT_DIR)/../SharedExternal/libs/OpenSSL/lib",
 					"$(PROJECT_DIR)/../SharedExternal/libs/boost/lib",
 					"$(PROJECT_DIR)/../SharedExternal/libs/sodium/lib",
-					"$(PROJECT_DIR)/../SharedExternal/libs/monero/lib-x86_64",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/libs/lib-x86_64",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.CWMonero;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -816,12 +846,12 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../SharedExternal/libs/monero/lib-ios",
-					"$(PROJECT_DIR)/../SharedExternal/libs/monero/lib",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/libs/lib-ios",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/libs/lib",
 					"$(PROJECT_DIR)/../SharedExternal/libs/OpenSSL/lib",
 					"$(PROJECT_DIR)/../SharedExternal/libs/boost/lib",
 					"$(PROJECT_DIR)/../SharedExternal/libs/sodium/lib",
-					"$(PROJECT_DIR)/../SharedExternal/libs/monero/lib-x86_64",
+					"$(PROJECT_DIR)/../SharedExternal/libs/monero/libs/lib-x86_64",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.CWMonero;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
